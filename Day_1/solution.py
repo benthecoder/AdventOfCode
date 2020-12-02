@@ -52,9 +52,6 @@ def threeSum(num_arr, target):
 
             s.add(num_arr[j])
 
-        # break when three nums found, remove to find all entries
-        break
-
 
 if __name__ == "__main__":
     twoSumHash(arr, 2020)
