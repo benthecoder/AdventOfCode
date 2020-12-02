@@ -4,26 +4,11 @@
 
 You don't need a computer science background to participate - just a little programming knowledge and some problem solving skills will get you pretty far. Nor do you need a fancy computer; every problem has a solution that completes in at most 15 seconds on ten-year-old hardware.
 
-## Resources / References
-
-* [Subreddit](https://www.reddit.com/r/adventofcode/)
-
-### Python Cheatsheet
-* [Pysheet](https://www.pythonsheets.com)
-* [Python Cheatsheet](https://www.pythoncheatsheet.org)
-
-### Algorithms cheatsheet
-* [Wikipedia Algorithms](https://en.wikipedia.org/wiki/List_of_algorithms)
-* [Sorting Algo Cheat Sheet](https://www.interviewcake.com/sorting-algorithm-cheat-sheet)
-* [Big-O Cheat Sheet](https://www.bigocheatsheet.com)
-* [Interview Cake](https://www.interviewcake.com)
-
-### Courses
-* [Khan-Academy](https://www.khanacademy.org/computing/computer-science/algorithms)
+---
 
 Day | Problem | link to code
 --- | ------- | ----
-[01](Day_1) | Two Sums & Three Sums | (code)[Day_1/solution.py]
+[01](Day_1) | Two Sums & Three Sums | [code](Day_1/solution.py)
 02 | ------- | ----
 03 | ------- | ----
 04 | ------- | ----
@@ -48,3 +33,22 @@ Day | Problem | link to code
 23 | ------- | ----
 24 | ------- | ----
 25 | ------- | ----
+
+---
+
+## Resources / References
+
+* [Subreddit](https://www.reddit.com/r/adventofcode/)
+
+### Python Cheatsheet
+* [Pysheet](https://www.pythonsheets.com)
+* [Python Cheatsheet](https://www.pythoncheatsheet.org)
+
+### Algorithms cheatsheet
+* [Wikipedia Algorithms](https://en.wikipedia.org/wiki/List_of_algorithms)
+* [Sorting Algo Cheat Sheet](https://www.interviewcake.com/sorting-algorithm-cheat-sheet)
+* [Big-O Cheat Sheet](https://www.bigocheatsheet.com)
+* [Interview Cake](https://www.interviewcake.com)
+
+### Courses
+* [Khan-Academy](https://www.khanacademy.org/computing/computer-science/algorithms)
