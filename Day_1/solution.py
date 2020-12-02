@@ -31,7 +31,7 @@ def twoSumHash(num_arr, pair_sum):
         complement = pair_sum - num
         if complement in hashTable:
             multiple = num * complement
-            print(f"The multiply of {num} and {complement} that adds to 2020 is: {multiple}")
+            print(f"The product of {num} and {complement} = {multiple}")
         hashTable[num] = i
 
 # Part 2
@@ -48,7 +48,7 @@ def threeSum(num_arr, target):
         for j in range(i + 1, len(num_arr)):
             if (new_sum - num_arr[j]) in s:
                 product = num_arr[i] * num_arr[j] * (new_sum - num_arr[j])
-                print(f"The product of {num_arr[i]}, {num_arr[j]} and {new_sum - num_arr[j]} that adds to 2020 is: {product}")
+                print(f"The product of {num_arr[i]}, {num_arr[j]} and {new_sum - num_arr[j]} = {product}")
 
             s.add(num_arr[j])
 
@@ -58,4 +58,9 @@ def threeSum(num_arr, target):
 
 if __name__ == "__main__":
     twoSumHash(arr, 2020)
+    # The product of 548 and 1472 = 806656
     threeSum(arr, 2020)
+    # The product of 807, 893 and 320 = 230608320
+
+
+
