@@ -7,9 +7,9 @@ You don't need a computer science background to participate - just a little prog
 ---
 
 Day | Problem | link to code 
---- | ------- | ----
+:---: | :-------: | :----:
 [01](Day_1) | Two Sums & Three Sums | [code](Day_1/solution.py) 
-[02](Day_2) | regex | code((Day_2/solution.py))
+[02](Day_2) | regex | [code](Day_1/solution.py) 
 03 | ------- | ----
 04 | ------- | ----
 05 | ------- | ----
