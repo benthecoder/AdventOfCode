@@ -39,7 +39,72 @@ In your expense report, what is the product of the three entries that sum to 202
 
 ---
 
-##  Solution
+## Solution
+
+### Part 1: Two Sums
+
+First step is to read the txt file and put the integers into array form 
+```python
+with open("input.txt", "r") as f:
+    arr = []
+    for line in f:
+        l = line.strip()
+        arr.append(int(l))
+```
+
+An inefficient solution to this problem is using i and j loops, this has a time complexity of O(n^2). 
+
+```python
+def twoSum(num_arr, pair_sum):
+    # search first element
+    for i in range(len(num_arr) - 1):
+        # search other element
+        for j in range(i + 1, len(num_arr)):
+            # if i and j sum to pair_sum, multiply pair
+            if num_arr[i] + num_arr[j] == pair_sum:
+                multiple = num_arr[i] * num_arr[j]
+                return multiple
+```
+
+A more efficient solution is usign hashtables, where you first find the complements of each number with the target 2020, and stores it in a dictionary. This eliminates the need to loop over all the numbers twice as before.
+
+```python
+def twoSumHash(num_arr, pair_sum):
+    hashTable = {}
+
+    for i, num in enumerate(arr):
+        complement = pair_sum - num
+        if complement in hashTable:
+            multiple = num * complement
+            return multiple
+
+        hashTable[num] = i
+
+# twoSumHash(arr, 2020)
+# 806656
+```
+
+### Part 2: Three Sums
+
+The solution to the three sums problem require a combination of a hash-based approach and the i, j loops, which means it is O(n^2).  
+
+```python
+def threeSum(num_arr, target):
+
+    for i in range(len(num_arr) - 1):
+        s = set()
+        new_sum = target - num_arr[i]
+
+        for j in range(i + 1, len(num_arr)):
+            if (new_sum - num_arr[j]) in s:
+                product = num_arr[i] * num_arr[j] * (new_sum - num_arr[j])
+                return product
+
+            s.add(num_arr[j])
+
+# print(threeSum(arr, 2020))
+# 230608320
+```
 
 Run the solution at [repl](https://repl.it/@benthecoder/day1aoc)
 
