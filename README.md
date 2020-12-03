@@ -43,6 +43,7 @@ Day | Problem | link to code
 ### Python Cheatsheet
 * [Pysheet](https://www.pythonsheets.com)
 * [Python Cheatsheet](https://www.pythoncheatsheet.org)
+* [Comprehensive Python Cheatsheet](https://gto76.github.io/python-cheatsheet/)
 
 ### Algorithms cheatsheet
 * [Wikipedia Algorithms](https://en.wikipedia.org/wiki/List_of_algorithms)
