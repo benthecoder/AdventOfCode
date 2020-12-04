@@ -5,23 +5,9 @@ with open("input.txt", "r") as f:
         l = line.strip()
         arr.append(int(l))
 
-# Part 1
+# Part 1 
 
-# Inefficient solution - O(n^2) time complexity
-
-# def twoSum(num_arr, pair_sum):
-#     # search first element
-#     for i in range(len(num_arr) - 1):
-#         # search other element
-#         for j in range(i + 1, len(num_arr)):
-#             # if i and j sum to pair_sum, multiply pair
-#             if num_arr[i] + num_arr[j] == pair_sum:
-#                 multiple = num_arr[i] * num_arr[j]
-#                 print(f"The multiply of two entries that adds to 2020 is: {multiple}")
-
-# Better solution with hash tables - O(n) time complexity
-
-
+# Using hash tables
 def twoSumHash(num_arr, pair_sum):
     hashTable = {}
 
@@ -29,16 +15,13 @@ def twoSumHash(num_arr, pair_sum):
         complement = pair_sum - num
         if complement in hashTable:
             multiple = num * complement
-            print f"The product of {num} and {complement} = {multiple}"
+            print(f"The product of {num} and {complement}: {multiple}")
         hashTable[num] = i
 
 # Part 2
 
 # combination of hash and i,j loops (alternative is two pointers)
-
-
 def threeSum(num_arr, target):
-
     for i in range(len(num_arr) - 1):
         s = set()
         new_sum = target - num_arr[i]
@@ -46,7 +29,7 @@ def threeSum(num_arr, target):
         for j in range(i + 1, len(num_arr)):
             if (new_sum - num_arr[j]) in s:
                 product = num_arr[i] * num_arr[j] * (new_sum - num_arr[j])
-                print(f"The product of {num_arr[i]}, {num_arr[j]} and {new_sum - num_arr[j]} = {product}")
+                print(f"The product of {num_arr[i]}, {num_arr[j]} and {new_sum - num_arr[j]}: {product}")
 
             s.add(num_arr[j])
 
