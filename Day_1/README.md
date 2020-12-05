@@ -46,10 +46,8 @@ In your expense report, what is the product of the three entries that sum to 202
 First step is to read the txt file and put the integers into array form 
 ```python
 with open("input.txt", "r") as f:
-    arr = []
-    for line in f:
-        l = line.strip()
-        arr.append(int(l))
+    arr = f.read().splitlines()
+    num_arr = list(map(int, arr))
 ```
 
 An inefficient solution to this problem is using i and j loops, this has a time complexity of O(n^2). 

@@ -1,17 +1,12 @@
-# convert txt file integers into number arrays
-with open("input.txt", "r") as f:
-    arr = []
-    for line in f:
-        l = line.strip()
-        arr.append(int(l))
-
-# Part 1 
+# Part 1
 
 # Using hash tables
+
+
 def twoSumHash(num_arr, pair_sum):
     hashTable = {}
 
-    for i, num in enumerate(arr):
+    for i, num in enumerate(num_arr):
         complement = pair_sum - num
         if complement in hashTable:
             multiple = num * complement
@@ -21,6 +16,8 @@ def twoSumHash(num_arr, pair_sum):
 # Part 2
 
 # combination of hash and i,j loops (alternative is two pointers)
+
+
 def threeSum(num_arr, target):
     for i in range(len(num_arr) - 1):
         s = set()
@@ -34,8 +31,17 @@ def threeSum(num_arr, target):
             s.add(num_arr[j])
 
 
-if __name__ == "__main__":
-    twoSumHash(arr, 2020)
+def main():
+    with open("input.txt", "r") as f:
+        arr = f.read().splitlines()
+        num_arr = list(map(int, arr))
+
+    twoSumHash(num_arr, 2020)
     # The product of 548 and 1472 = 806656
-    threeSum(arr, 2020)
+
+    threeSum(num_arr, 2020)
     # The product of 807, 893 and 320 = 230608320
+
+
+if __name__ == "__main__":
+    main()
