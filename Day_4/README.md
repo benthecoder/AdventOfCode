@@ -207,7 +207,7 @@ if __name__ == "__main__":
     - `lambda()` variable : expression, lambda is purely a function that takes a variable and applies an expression to it. 
     - Thus, what the above code does is firstly it maps the lambda function that splits variables by ":", onto the splitted passport list, and then turns the list into a set, which later on we use `.issuperset()` to check if the keys match the required info.
 * `pass_dict = {k_v.split(':')[0]: k_v.split(':')[1] for k_v in passport.split()}` -> this is dictionary comprehension, like list comprehension but for dictionary. It seperates the data into key value pairs, which helps for later on to filter the keys based on conditions 
-* 
+
 Run the solution at [repl](https://repl.it/@benthecoder/day4aoc)
 
 ## Resources
