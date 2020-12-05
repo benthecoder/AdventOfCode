@@ -1,10 +1,3 @@
-def main():
-    with open("map.txt") as f:
-        grid = f.read().splitlines()
-
-    print(f"Part 1: {sol_1(grid)} trees \nPart 2: {sol_2(grid)} trees")
-
-
 def tree_detect(grid, dr, dc):
     r, c, count = 0, 0, 0
 
@@ -29,6 +22,13 @@ def sol_2(grid):
         prod *= tree_detect(grid, s[0], s[1])
 
     return prod
+
+
+def main():
+    with open("map.txt") as f:
+        grid = f.read().splitlines()
+
+    print(f"Part 1: {sol_1(grid)} trees \nPart 2: {sol_2(grid)} trees")
 
 
 if __name__ == '__main__':
