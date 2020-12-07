@@ -8,31 +8,31 @@ You don't need a computer science background to participate - just a little prog
 
 Day | Problem | link to code 
 :---: | :-------: | :----:
-[01](Day_1) | Two Sums & Three Sums | [code](Day_1/solution.py) 
-[02](Day_2) | Regex | [code](Day_2/solution.py) 
-[03](Day_3) | Grid | [code](Day_3/solution.py) 
-[04](Day_4) | Conditions | [code](Day_4/solution.py) 
-05 | ------- | ----
-06 | ------- | ----
-07 | ------- | ----
-08 | ------- | ----
-09 | ------- | ----
-10 | ------- | ----
-11 | ------- | ----
-12 | ------- | ----
-13 | ------- | ----
-14 | ------- | ----
-15 | ------- | ----
-16 | ------- | ----
-17 | ------- | ----
-18 | ------- | ----
-19 | ------- | ----
-20 | ------- | ----
-21 | ------- | ----
-22 | ------- | ----
-23 | ------- | ----
-24 | ------- | ----
-25 | ------- | ----
+[01](Day_1) | Report Repair | [code](Day_1/solution.py) 
+[02](Day_2) | Password Philosophy | [code](Day_2/solution.py) 
+[03](Day_3) | Toboggan Trajectory | [code](Day_3/solution.py) 
+[04](Day_4) | Passport Processing | [code](Day_4/solution.py) 
+[05](Day_5)  | Binary Boarding | [code](Day_5/solution.py) 
+[06](Day_6)  | Custom Customs | [code](Day_6/solution.py) 
+[07](Day_7)  | Handy Haversacks | 
+[08]| |
+[09]| |
+[10]| | 
+[11]| | 
+[12]| | 
+[13]| | 
+[14]| | 
+[15]| | 
+[16]| | 
+[17]| | 
+[18]| | 
+[19]| | 
+[20]| | 
+[21]| | 
+[22]| | 
+[23]| | 
+[24]| | 
+[25]| | 
 
 ---
 
