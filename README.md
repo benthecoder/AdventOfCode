@@ -1,10 +1,13 @@
-# AdventOfCode
+# AdventOfCode 🎄
 
 [Advent of Code](https://adventofcode.com) is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. People use them as a speed contest, interview prep, company training, university coursework, practice problems, or to challenge each other.
 
 ---
 
-Day | Problem | link to code 
+<details><summary>❄️ Table Of Contents ❄️</summary>
+<p>
+
+Day 🌟 | Problem | link 
 :---: | :-------: | :----:
 [01](Day_1) | Report Repair | [code](Day_1/solution.py) 
 [02](Day_2) | Password Philosophy | [code](Day_2/solution.py) 
@@ -32,10 +35,13 @@ Day | Problem | link to code
 [24]| | 
 [25]| | 
 
+</p>
+</details>
+
 ---
 
 
-## Advent calendar 
+## Advent calendar 📅
 
 ```
               ..........|..........                 1 **
@@ -70,7 +76,7 @@ Day | Problem | link to code
 https://raw.githubusercontent.com/encse/adventofcode/master/2020/README.md
 -->
 
-## Resources / References
+## Resources / References 🎁
 
 * [Subreddit](https://www.reddit.com/r/adventofcode/)
 
