@@ -4,18 +4,18 @@
 
 ## Table Of Contents
 
-<details><summary>❄️ Click Me! ❄️</summary>
+<details><summary> Click Me! ❄️</summary>
 <p>
 
-Day 🌟 | Problem | link 
+Day 🌟 | Title | link 
 :---: | :-------: | :----:
-[01](Day_1) | Report Repair | [code](Day_1/solution.py) 
-[02](Day_2) | Password Philosophy | [code](Day_2/solution.py) 
-[03](Day_3) | Toboggan Trajectory | [code](Day_3/solution.py) 
-[04](Day_4) | Passport Processing | [code](Day_4/solution.py) 
-[05](Day_5)  | Binary Boarding | [code](Day_5/solution.py) 
-[06](Day_6)  | Custom Customs | [code](Day_6/solution.py) 
-[07](Day_7)  | Handy Haversacks | [code](Day_7/solution.py) 
+[01](Day01) | Report Repair | [code](Day01/solution.py) 
+[02](Day02) | Password Philosophy | [code](Day02/solution.py) 
+[03](Day03) | Toboggan Trajectory | [code](Day03/solution.py) 
+[04](Day04) | Passport Processing | [code](Day04/solution.py) 
+[05](Day05)  | Binary Boarding | [code](Day05/solution.py) 
+[06](Day06)  | Custom Customs | [code](Day06/solution.py) 
+[07](Day07)  | Handy Haversacks | [code](Day07/solution.py) 
 [08]| |
 [09]| |
 [10]| | 
