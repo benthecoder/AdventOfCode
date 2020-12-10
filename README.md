@@ -2,8 +2,6 @@
 
 [Advent of Code](https://adventofcode.com) is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. People use them as a speed contest, interview prep, company training, university coursework, practice problems, or to challenge each other.
 
-You don't need a computer science background to participate - just a little programming knowledge and some problem solving skills will get you pretty far. Nor do you need a fancy computer; every problem has a solution that completes in at most 15 seconds on ten-year-old hardware.
-
 ---
 
 Day | Problem | link to code 
@@ -14,7 +12,7 @@ Day | Problem | link to code
 [04](Day_4) | Passport Processing | [code](Day_4/solution.py) 
 [05](Day_5)  | Binary Boarding | [code](Day_5/solution.py) 
 [06](Day_6)  | Custom Customs | [code](Day_6/solution.py) 
-[07](Day_7)  | Handy Haversacks | 
+[07](Day_7)  | Handy Haversacks | [code](Day_7/solution.py) 
 [08]| |
 [09]| |
 [10]| | 
@@ -35,6 +33,42 @@ Day | Problem | link to code
 [25]| | 
 
 ---
+
+
+## Advent calendar 
+
+```
+              ..........|..........                 1 **
+   .....'''''' .'  -  -  \- .''~ ~ ''''''.....      2 **
+''' ~ ~ ~ ~  ~ '.'. -   - \ -'':  ~ ~   ~  ~  '''   3 **
+ ~   ~  ~   ~ ~  ~ ''..'''_[].'  ~    ~   ~ ~  ~    4 **
+~   ~ ~  .'. ~  ~  ~ ____/ ''  ~  ~  ~     ~    ~   5 **
+  ~    ~ ''  .._____/ ~   ~  ~  ~      ~            6 **
+ ~  ~ ~   ~ :[]'.   ~   ~      ~                    7 **
+       ~     '.\ ~        ~  ~                      8 
+ ~   ~      ~   \  ~                             
+               ~ \                                  9 
+                  \ ~                            
+                   \                             
+                   ~\                            
+                     \ ~                         
+                   ~  \   ~                        10 
+                       \   .                     
+                     ~  \'',:                    
+                       :[]..'                      11 
+                        ''     ~                 
+                          ~                      
+                                                 
+                                ~              ~ 
+                           ~                     
+                             . ..   .' ..       ~
+                              '.            ~    
+
+```
+
+<!--
+https://raw.githubusercontent.com/encse/adventofcode/master/2020/README.md
+-->
 
 ## Resources / References
 
