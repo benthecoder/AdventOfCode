@@ -10,9 +10,9 @@ Day 🌟 | Title | link
 [02](Day02) | Password Philosophy | [code](Day02/solution.py) 
 [03](Day03) | Toboggan Trajectory | [code](Day03/solution.py) 
 [04](Day04) | Passport Processing | [code](Day04/solution.py) 
-[05](Day05)  | Binary Boarding | [code](Day05/solution.py) 
-[06](Day06)  | Custom Customs | [code](Day06/solution.py) 
-[07](Day07)  | Handy Haversacks | [code](Day07/solution.py) 
+[05](Day05) | Binary Boarding | [code](Day05/solution.py) 
+[06](Day06) | Custom Customs | [code](Day06/solution.py) 
+[07](Day07) | Handy Haversacks | [code](Day07/solution.py) 
 [08]| |
 [09]| |
 [10]| | 
@@ -42,22 +42,22 @@ Day 🌟 | Title | link
  ~   ~  ~   ~ ~  ~ ''..'''_[].'  ~    ~   ~ ~  ~    4 **
 ~   ~ ~  .'. ~  ~  ~ ____/ ''  ~  ~  ~     ~    ~   5 **
   ~    ~ ''  .._____/ ~   ~  ~  ~      ~            6 **
- ~  ~ ~   ~ :[]'.   ~   ~      ~                    7 **
-       ~     '.\ ~        ~  ~                      8 
- ~   ~      ~   \  ~                             
-               ~ \                                  9 
-                  \ ~                            
-                   \                             
-                   ~\                            
-                     \ ~                         
-                   ~  \   ~                        10 
-                       \   .                     
-                     ~  \'',:                    
-                       :[]..'                      11 
-                        ''     ~                 
-                          ~                      
-                                                 
-                                ~              ~ 
+ ~  ~ ~   ~ :[]'.   ~   ~      ~               ~    7 **
+       ~     '.\ ~        ~  ~      ~      ~        8 *
+ ~   ~      ~   \  ~   ~ __     ~      ~      ~    17
+               ~ \      .''\'..    ~       ~    .   9 
+                  \ ~   .'^ [].'      ~  ~  ..''   16 
+                   \    :^ , :\  ~       :''  , ^
+       .           ~\    '..'  \_______~ '. ,      15 
+                     \ ~       ~   ~   \  :  , ^ 
+           .       ~  \   ~            .\' ,  ^ ^  10 
+                       \   .       ~   '.[]  , ^   14 
+                     ~  \'',:  ~       _/'..  , ^
+                       :[]..'         / ~   ''...  11 
+                        ''\__  ~     /             13 
+                          ~  \__    /~      ~    
+                                \__/               12 
+                                ~         ~    ~ 
                            ~                     
                              . ..   .' ..       ~
                               '.            ~    
@@ -65,7 +65,8 @@ Day 🌟 | Title | link
 ```
 
 <!--
-https://raw.githubusercontent.com/encse/adventofcode/master/2020/README.md
+calendar is from from here 
+-> https://raw.githubusercontent.com/encse/adventofcode/master/2020/README.md
 -->
 
 ## Resources / References 🎁
