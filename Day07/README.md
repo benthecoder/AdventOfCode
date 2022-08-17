@@ -133,4 +133,5 @@ def main():
 * [Python Recursion](https://www.programiz.com/python-programming/recursion)
 * [re.search vs re.findall](https://www.geeksforgeeks.org/python-regex-re-search-vs-re-findall/)
 * [collections.deque()](https://www.educative.io/edpresso/how-to-use-a-deque-in-python)
+* [For Loop in Python](https://www.scaler.com/topics/python/for-loop-in-python/)
 
